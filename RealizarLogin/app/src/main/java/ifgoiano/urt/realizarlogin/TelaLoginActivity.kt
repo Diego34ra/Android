@@ -37,7 +37,6 @@ class TelaLoginActivity : AppCompatActivity() {
                 val bundle = Bundle()
                 bundle.putString("nomeUsuario", email)
 
-                // Adicionando o Bundle ao Intent
                 intent.putExtras(bundle)
                 startActivity(intent)
             } else {
