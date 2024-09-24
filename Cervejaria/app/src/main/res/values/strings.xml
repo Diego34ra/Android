@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Cervejaria</string>
+    <string-array name="activity_main_tipos">
+        <item>Lager</item>
+        <item>Pilsen</item>
+        <item>Bock</item>
+    </string-array>
+
+    <string-array name="activity_main_Ambev">
+        <item>Skol</item>
+        <item>Brahma</item>
+        <item>Antarctica</item>
+    </string-array>
+</resources>
