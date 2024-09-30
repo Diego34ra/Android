@@ -44,23 +44,27 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun runTimer() {
-        val timeView = findViewById<TextView>(R.id.time_view)
-
         handler.post(object : Runnable {
             override fun run() {
-                val horas = segundos / 3600
-                val minutos = (segundos % 3600) / 60
-                val secs = segundos % 60
-                val time = String.format("%02d:%02d:%02d", horas, minutos, secs)
-
-                timeView.text = time
-
+                updateTimerUI();
                 if (rodando) {
                     segundos++
+                    updateTimerUI();
                 }
-
                 handler.postDelayed(this, 1000)
             }
         })
+    }
+
+    fun updateTimerUI() {
+        val timeView = findViewById<TextView>(R.id.time_view)
+
+        val horas = segundos / 3600
+        val minutos = (segundos % 3600) / 60
+        val secs = segundos % 60
+        val time = String.format("%02d:%02d:%02d", horas, minutos, secs)
+
+        timeView.text = time
+
     }
 }
