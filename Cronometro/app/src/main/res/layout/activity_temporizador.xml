@@ -53,16 +53,15 @@
 
     <Button
         android:id="@+id/btn_start_temporizador"
-        android:layout_width="110dp"
+        android:layout_width="120dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="76dp"
         android:text="Iniciar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.354" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.752" />
 
     <TextView
         android:id="@+id/time_view_temporizador"
@@ -79,28 +78,16 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/btn_pause_temporizador"
-        android:layout_width="110dp"
-        android:layout_height="wrap_content"
-        android:onClick="onClickPausarTemporizador"
-        android:text="Pausar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_start_temporizador"
-        app:layout_constraintVertical_bias="0.186" />
-
-    <Button
         android:id="@+id/btn_resume_temporizador"
-        android:layout_width="110dp"
+        android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:onClick="onClickRetomarTemporizador"
         android:text="Retomar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_pause_temporizador" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_start_temporizador"
+        app:layout_constraintVertical_bias="0.247" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
