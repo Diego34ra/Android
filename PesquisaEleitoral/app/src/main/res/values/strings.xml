@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">PesquisaEleitoral</string>
+    <string-array name="estados_brasil">
+        <item>Acre</item>
+        <item>Alagoas</item>
+        <item>Amapá</item>
+        <item>Amazonas</item>
+        <item>Bahia</item>
+        <item>Ceará</item>
+        <item>Distrito Federal</item>
+        <item>Espírito Santo</item>
+        <item>Goiás</item>
+        <item>Maranhão</item>
+        <item>Mato Grosso</item>
+        <item>Mato Grosso do Sul</item>
+        <item>Minas Gerais</item>
+        <item>Pará</item>
+        <item>Paraíba</item>
+        <item>Paraná</item>
+        <item>Pernambuco</item>
+        <item>Piauí</item>
+        <item>Rio de Janeiro</item>
+        <item>Rio Grande do Norte</item>
+        <item>Rio Grande do Sul</item>
+        <item>Rondônia</item>
+        <item>Roraima</item>
+        <item>Santa Catarina</item>
+        <item>São Paulo</item>
+        <item>Sergipe</item>
+        <item>Tocantins</item>
+    </string-array>
+
+    <!-- Vereadores -->
+    <string-array name="vereadores">
+        <item>Vereador 1</item>
+        <item>Vereador 2</item>
+        <item>Vereador 3</item>
+    </string-array>
+
+    <!-- Prefeitos -->
+    <string-array name="prefeitos">
+        <item>Prefeito 1</item>
+        <item>Prefeito 2</item>
+        <item>Prefeito 3</item>
+        <item>Prefeito 4</item>
+    </string-array>
+
+    <!-- Partidos -->
+    <string-array name="partidos">
+        <item>Partido A</item>
+        <item>Partido B</item>
+        <item>Partido C</item>
+        <item>Partido D</item>
+        <item>Partido E</item>
+        <item>Partido F</item>
+    </string-array>
+
+    <string name="partido_a">Partido A</string>
+    <string name="partido_b">Partido B</string>
+    <string name="partido_c">Partido C</string>
+    <string name="partido_d">Partido D</string>
+    <string name="partido_e">Partido E</string>
+    <string name="partido_f">Partido F</string>
+</resources>

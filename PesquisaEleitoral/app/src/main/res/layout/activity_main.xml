@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <!-- Imagem do TRE -->
+    <!-- Nome completo -->
+
+    <ImageView
+        android:id="@+id/iv_tre"
+        android:layout_width="153dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/tre_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_nome_completo"
+        android:layout_width="0dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="16dp"
+        android:hint="Nome completo"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv_tre" />
+
+    <!-- Título de Eleitor (teclado numérico) -->
+    <EditText
+        android:id="@+id/et_titulo_eleitor"
+        android:layout_width="0dp"
+        android:layout_height="37dp"
+        android:hint="Título de Eleitor"
+        android:inputType="number"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/et_nome_completo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp" />
+
+    <!-- Zona e Seção -->
+    <EditText
+        android:id="@+id/et_zona"
+        android:layout_width="0dp"
+        android:layout_height="37dp"
+        android:hint="Zona"
+        android:inputType="number"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/et_titulo_eleitor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp" />
+
+    <EditText
+        android:id="@+id/et_secao"
+        android:layout_width="0dp"
+        android:layout_height="37dp"
+        android:hint="Seção"
+        android:inputType="number"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/et_zona"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp" />
+
+    <!-- Cidade -->
+    <EditText
+        android:id="@+id/et_cidade"
+        android:layout_width="0dp"
+        android:layout_height="37dp"
+        android:hint="Cidade"
+        android:inputType="text"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/et_secao"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp" />
+
+    <!-- Escolher Estado -->
+
+    <!-- Spinner para selecionar estado -->
+
+    <TextView
+        android:id="@+id/tv_escolha_estado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Escolha o Estado"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/et_cidade" />
+
+    <!-- Escolher Vereador -->
+    <Spinner
+        android:id="@+id/spinner_estado"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_escolha_estado" />
+
+    <TextView
+        android:id="@+id/tv_escolha_vereador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Escolha o Vereador"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/spinner_estado" />
+
+    <Spinner
+        android:id="@+id/spinner_vereador"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tv_escolha_vereador"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Escolher Prefeito -->
+
+    <TextView
+        android:id="@+id/tv_escolha_prefeito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Escolha o Prefeito"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/spinner_vereador" />
+
+    <Spinner
+        android:id="@+id/spinner_prefeito"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tv_escolha_prefeito"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Escolha de partidos -->
+    <TextView
+        android:id="@+id/tv_partido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quais partidos você mais gosta?"
+        app:layout_constraintTop_toBottomOf="@id/spinner_prefeito"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <!-- Checkboxes para seleção de partidos -->
+
+    <CheckBox
+        android:id="@+id/checkbox_partido_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/partido_a"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_partido" />
+
+    <CheckBox
+        android:id="@+id/checkbox_partido_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/partido_b"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/checkbox_partido_a" />
+
+    <CheckBox
+        android:id="@+id/checkbox_partido_c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/partido_c"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/checkbox_partido_b" />
+
+    <!-- Botão de envio -->
+
+    <CheckBox
+        android:id="@+id/checkbox_partido_d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/partido_d"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toEndOf="@+id/checkbox_partido_a"
+        app:layout_constraintTop_toBottomOf="@+id/tv_partido" />
+
+    <CheckBox
+        android:id="@+id/checkbox_partido_e"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/partido_e"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.706"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/checkbox_partido_d" />
+
+    <CheckBox
+        android:id="@+id/checkbox_partido_f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/partido_f"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.706"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkbox_partido_e" />
+
+    <Button
+        android:id="@+id/btn_enviar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Enviar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/checkbox_partido_f" />
+</androidx.constraintlayout.widget.ConstraintLayout>
