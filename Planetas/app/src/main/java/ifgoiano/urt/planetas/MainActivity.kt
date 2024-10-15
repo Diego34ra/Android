@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
                 // Atualiza a imagem
                 planetas.getImagemPlaneta(posicao)?.let { imagem.setImageResource(it) }
             }
-            override fun onNothingSelected(parent: AdapterView<*>?) { TODO("Not yet implemented" )}
+            override fun onNothingSelected(parent: AdapterView<*>?) { TODO("Not yet implemented" )
             }
         }
     }
