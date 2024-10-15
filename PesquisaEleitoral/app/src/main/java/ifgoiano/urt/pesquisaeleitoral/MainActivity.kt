@@ -90,7 +90,7 @@ class MainActivity : AppCompatActivity() {
             val vereador = spinnerVereador.selectedItem.toString()
             val prefeito = spinnerPrefeito.selectedItem.toString()
 
-            val partidosSelecionados = mutableListOf<String>()
+            val partidosSelecionados = mutableListOf<String>() ;
             checkBoxPartidos.forEach { checkBox ->
                 if (checkBox.isChecked) {
                     partidosSelecionados.add(checkBox.text.toString())
