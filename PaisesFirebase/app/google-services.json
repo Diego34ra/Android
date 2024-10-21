@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "521626901689",
+    "project_id": "paises-firebase",
+    "storage_bucket": "paises-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521626901689:android:e058b83eec3434f7894f68",
+        "android_client_info": {
+          "package_name": "ifgoiano.urt.paisesfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzZ5YEgM78vAFQTJdJHMMXKLxcrZJFrbA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
