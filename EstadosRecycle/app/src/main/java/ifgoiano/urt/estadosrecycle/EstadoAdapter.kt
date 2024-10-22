@@ -11,8 +11,8 @@ import androidx.recyclerview.widget.RecyclerView
 class EstadoAdapter(private val estados: List<Estado>) : RecyclerView.Adapter<EstadoAdapter.EstadoViewHolder>() {
 
     class EstadoViewHolder(view: View) : RecyclerView.ViewHolder(view) {
-        val estadoImage: ImageView = view.findViewById(R.id.estadoImage)  // Corrigir nome para estadoImage
-        val estadoName: TextView = view.findViewById(R.id.estadoName)      // Alterado para o correto estadoName
+        val estadoImage: ImageView = view.findViewById(R.id.estadoImage)
+        val estadoName: TextView = view.findViewById(R.id.estadoName)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): EstadoViewHolder {

@@ -13,14 +13,12 @@ class EstadoDetalheActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_estado_detalhe)
 
-        // Recupera os dados passados pela Intent
         val nome = intent.getStringExtra("NOME")
         val img = intent.getIntExtra("IMG", 0)
         val capital = intent.getStringExtra("CAPITAL")
         val populacao = intent.getStringExtra("POPULACAO")
         val regiao = intent.getStringExtra("REGIAO")
 
-        // Atualiza os dados na interface
         findViewById<TextView>(R.id.estadoNome).text = nome
         findViewById<ImageView>(R.id.estadoBandeira).setImageResource(img)
         findViewById<TextView>(R.id.estadoCapital).text = "Capital: $capital"
