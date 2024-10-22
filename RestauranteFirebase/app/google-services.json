@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "383300726147",
+    "project_id": "restaurante-firebase1",
+    "storage_bucket": "restaurante-firebase1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:383300726147:android:8788d6dfef426500c0dab6",
+        "android_client_info": {
+          "package_name": "ifgoiano.urt.restaurantefirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhdIPcgxdhTT6_PnZYGILUs5BY1ri5P74"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
