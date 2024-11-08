@@ -17,7 +17,7 @@ class DetalhesSaque : AppCompatActivity() {
         val tipoConta = intent.getStringExtra("tipoConta")
         val agencia = intent.getStringExtra("agencia")
         val conta = intent.getStringExtra("conta")
-        val valor = intent.getStringExtra("valor")
+        val valor = intent.getStringExtra("valorSolicitar")
 
         val dados = """
             CPF: $cpf
