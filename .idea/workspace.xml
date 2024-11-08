@@ -4,7 +4,53 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="086aa687-5c8f-436d-9a43-ef252d403c8d" name="Changes" comment="" />
+    <list default="true" id="086aa687-5c8f-436d-9a43-ef252d403c8d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/provanotaFiscal/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provanotaFiscal/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provanotaFiscal/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provanotaFiscal/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provanotaFiscal/app/src/androidTest/java/ifgoiano/urt/prova_notafiscal/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provanotaFiscal/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provanotaFiscal/app/src/main/java/ifgoiano/urt/prova_notafiscal/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provanotaFiscal/app/src/main/java/ifgoiano/urt/prova_notafiscal/Semestre.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provanotaFiscal/app/src/main/java/ifgoiano/urt/prova_notafiscal/SemestreAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provanotaFiscal/app/src/main/java/ifgoiano/urt/prova_notafiscal/SolicitarSaqueActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provanotaFiscal/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provanotaFiscal/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provanotaFiscal/app/src/main/res/layout/activity_ano_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provanotaFiscal/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provanotaFiscal/app/src/main/res/layout/activity_solicitar_saque.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provanotaFiscal/app/src/main/res/mipmap-anydpi/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provanotaFiscal/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provanotaFiscal/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provanotaFiscal/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provanotaFiscal/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provanotaFiscal/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provanotaFiscal/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provanotaFiscal/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provanotaFiscal/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provanotaFiscal/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provanotaFiscal/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provanotaFiscal/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provanotaFiscal/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provanotaFiscal/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provanotaFiscal/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provanotaFiscal/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provanotaFiscal/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provanotaFiscal/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provanotaFiscal/app/src/test/java/ifgoiano/urt/prova_notafiscal/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provanotaFiscal/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provanotaFiscal/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provanotaFiscal/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provanotaFiscal/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provanotaFiscal/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provanotaFiscal/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provanotaFiscal/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provanotaFiscal/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/other.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,26 +62,26 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2mTSco0qVCsoP4F4NAqRwsLU1wb" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/2022101202010058/Documents/GitHub/Android/RealizarLogin"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/2022101202010058/Documents/GitHub/Android/RealizarLogin&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">prova-notaFiscal</string>
+    <string-array name="bancos">
+        <item>Escolha seu banco...</item>
+        <item>Banco do Brasil</item>
+        <item>Bradesco</item>
+        <item>Itaú</item>
+    </string-array>
+    <string-array name="contas">
+        <item>Escolha seu tipo de conta...</item>
+        <item>Conta Corrente</item>
+        <item>Conta Poupança</item>
+    </string-array>
+</resources>
