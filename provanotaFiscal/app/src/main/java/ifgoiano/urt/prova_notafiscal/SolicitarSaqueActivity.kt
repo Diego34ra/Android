@@ -2,6 +2,7 @@ package ifgoiano.urt.prova_notafiscal
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Spinner
@@ -43,10 +44,10 @@ class SolicitarSaqueActivity : AppCompatActivity() {
             val tipoConta = tipoContaSpinner.selectedItem.toString()
             val agencia = agenciaEditText.text.toString()
             val conta = contaEditText.text.toString()
-
             val saqueInicial = saque?.toFloatOrNull() ?: 0.0f
-
             val valorFinal = calcularValorSaque(ano, saqueInicial)
+            Log.d("testesaque","Valor final do saque: $valorFinal")
+
 
             val intent = Intent(this, DetalhesSaque::class.java).apply {
                 putExtra("cpf", cpf)
@@ -54,6 +55,7 @@ class SolicitarSaqueActivity : AppCompatActivity() {
                 putExtra("tipoConta", tipoConta)
                 putExtra("agencia", agencia)
                 putExtra("conta", conta)
+                Log.d("testesaque","Valor final do enviando: $valorFinal")
                 putExtra("valorSolicitar", valorFinal)
             }
 
